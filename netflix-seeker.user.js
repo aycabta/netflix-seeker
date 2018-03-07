@@ -70,9 +70,9 @@
             }
         });
     };
-    var script = document.createElement ('script');
+    var script = document.createElement('script');
     script.textContent = '(' + initialize.toString() + ')()';
-    var head = document.getElementsByTagName ('head')[0];
+    var head = document.getElementsByTagName('head')[0];
     var intervalId = setInterval(function() {
         if (typeof document.getElementsByClassName('video-title')[0] !== "undefined") {
             head.appendChild(script);
