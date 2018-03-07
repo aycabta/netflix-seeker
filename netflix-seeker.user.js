@@ -12,8 +12,7 @@
     function initialize() {
         var savedTime = null;
         var seekSeconds = 5;
-        var isShownControls = true;
-        var leftControls = document.getElementsByClassName('video-title')[0];
+        var titleBar = document.getElementsByClassName('video-title')[0];
         var secondsInfo = document.createElement('div');
         secondsInfo.style.color = '#BBB';
         secondsInfo.style.fontSize = '2.2em';
@@ -21,7 +20,7 @@
         secondsInfo.classList.add('ellipsize-text');
         var secondsText = document.createTextNode('seek ' + seekSeconds.toString(10))
         secondsInfo.appendChild(secondsText);
-        leftControls.appendChild(secondsInfo);
+        titleBar.appendChild(secondsInfo);
         document.addEventListener("keydown", function(e) {
             var to = null;
             var videoPlayer = netflix.appContext.state.playerApp.getAPI().videoPlayer;
