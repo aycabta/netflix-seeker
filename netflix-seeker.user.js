@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name     Netflix Seeker
-// @license  MIT
-// @version  0.0.2
-// @description  benry
-// @include    /^https:\/\/www\.netflix\.com\/watch\/.*$/
-// @copyright  2018+, aycabta
-// @grant    none
+// @name        Netflix Seeker
+// @license     MIT
+// @version     0.0.2
+// @description benry
+// @include     /^https:\/\/www\.netflix\.com\/watch\/.*$/
+// @copyright   2018+, aycabta
+// @grant       none
 // ==/UserScript==
 
 (function() {
