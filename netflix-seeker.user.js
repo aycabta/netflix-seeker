@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name        Netflix Seeker
 // @license     MIT
+// @namespace   https://github.com/aycabta
 // @version     0.0.2
 // @description benry
 // @include     /^https:\/\/www\.netflix\.com\/watch\/.*$/
